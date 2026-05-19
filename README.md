@@ -1,63 +1,54 @@
-# Astro Starter Kit: Blog
+# 🥙 Projekt: Hodnocení atypických kebabáren v Praze
 
-```sh
-npm create astro@latest -- --template blog
-```
+[cite_start]Tento web slouží jako prezentace semestrálního projektu týmu **ST.1 – Kebabos s.r.o.** [cite: 1, 2] [cite_start]Cílem projektu je zmapovat, otestovat a detailně vyhodnotit netradiční kebabárny v Praze – od kvality jídla až po energii místa a chování obsluhy[cite: 4, 6].
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 👥 Realizační tým
+* [cite_start]**Daniel Mandinec** – Ředitel projektu a správce webových stránek [cite: 10, 17]
+* [cite_start]**Jan Hrubeš** – Hlavní organizátor testování [cite: 11]
+* [cite_start]**Antonín Pivoňka** – Písař a autor textů [cite: 12]
+* [cite_start]**Ondřej Douša** – Datový analytik [cite: 13, 15]
+* [cite_start]**Jiří Šedivý** – Mecenáš a finanční podpora [cite: 14]
 
-Features:
+---
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+# 🚀 Návod ke spuštění webu (Krok za krokem)
 
-## 🚀 Project Structure
+Tento návod je určen pro každého, kdo běžně používá počítač jen na prohlížení internetu, psaní ve Wordu nebo zápis do Bakalářů. Nebojte se, zvládnete to!
 
-Inside of your Astro project, you'll see the following folders and files:
+### Krok 1: Stažení programu Node.js
+Aby se mohl web na vašem počítači nastartovat, potřebuje k tomu jeden pomocný program.
+1. Otevřete Google Chrome a klikněte na tento odkaz: [https://nodejs.org/](https://nodejs.org/)
+2. Na stránce uvidíte velké zelené tlačítko s nápisem **LTS** (např. *20.x.x LTS* nebo novější). Klikněte na něj.
+3. Stáhne se vám instalační soubor (podobně jako když stahujete hru nebo MS Office).
+4. Soubor otevřete, klikejte na **Next** (Další) a nakonec na **Finish** (Dokončit).
 
-```text
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
-```
+### Krok 2: Otevření "Příkazového řádku"
+Teď musíme počítači říct, kde schováváte složku s naším projektem.
+1. Najděte na svém počítači složku s tímto staženým projektem (tam, kde vidíte tento soubor README).
+2. Klikněte do horní adresní řádky v průzkumníku souborů (tam, kde je napsáno např. `C:\Users\Jmeno\Downloads\kebab-projekt`).
+3. Celý tento text smažte, napište místo něj tři písmena **`cmd`** a zmáčkněte klávesu **Enter**.
+4. Otevře se černé okno. Toho se nelekejte, je to v pořádku.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### Krok 3: Příprava webu (Instalace balíčků)
+V černém okně bliká kurzor. Počítač teď čeká na váš příkaz.
+1. Napište do okna přesně toto: **`npm install`**
+2. Zmáčkněte **Enter**.
+3. Počítač začne stahovat součástky potřebné pro web. Může to trvat zhruba minutu. Jakmile to skončí, bliká kurzor znovu.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### Krok 4: Spuštění samotného webu
+Nyní web konečně probudíme k životu.
+1. Do černého okna napište: **`npm run dev`**
+2. Zmáčkněte **Enter**.
+3. V okně se objeví text, kde bude mimo jiné napsané zelené nebo bílé: `http://localhost:4321/`
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+### Krok 5: Zobrazení v Google Chrome
+1. Otevřete Google Chrome.
+2. Do řádku, kam běžně píšete internetové adresy (jako www.seznam.cz), napište: **`localhost:4321`**
+3. Zmáčkněte **Enter**.
 
-Any static assets, like images, can be placed in the `public/` directory.
+🎉 **Gratulujeme! Webová stránka s hodnocením kebabáren v Praze je spuštěná a můžete si ji prohlížet.**
 
-## 🧞 Commands
+---
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
-# kebabos
+### 🛑 Jak web vypnout?
+Až budete chtít práci ukončit, stačí jednoduše **zavřít to černé okno** křížkem vpravo nahoře. Web se tím sám vypne.
