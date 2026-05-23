@@ -1,17 +1,17 @@
-# 🥙 Projekt: Hodnocení atypických kebabáren v Praze
+# Projekt: Hodnocení atypických kebabáren v Praze
 
-[cite_start]Tento web slouží jako prezentace semestrálního projektu týmu **ST.1 – Kebabos s.r.o.** [cite: 1, 2] [cite_start]Cílem projektu je zmapovat, otestovat a detailně vyhodnotit netradiční kebabárny v Praze – od kvality jídla až po energii místa a chování obsluhy[cite: 4, 6].
+Tento web slouží jako prezentace semestrálního projektu týmu **ST.1 – Kebabos s.r.o.** Cílem projektu je zmapovat, otestovat a detailně vyhodnotit netradiční kebabárny v Praze – od kvality jídla až po energii místa a chování obsluhy.
 
-## 👥 Realizační tým
-* [cite_start]**Daniel Mandinec** – Ředitel projektu a správce webových stránek [cite: 10, 17]
-* [cite_start]**Jan Hrubeš** – Hlavní organizátor testování [cite: 11]
-* [cite_start]**Antonín Pivoňka** – Písař a autor textů [cite: 12]
-* [cite_start]**Ondřej Douša** – Datový analytik [cite: 13, 15]
-* [cite_start]**Jiří Šedivý** – Mecenáš a finanční podpora [cite: 14]
+## Realizační tým
+* **Daniel Mandinec** – Ředitel projektu a správce webových stránek
+* **Jan Hrubeš** – Hlavní organizátor testování
+* **Antonín Pivoňka** – Písař a autor textů
+* **Ondřej Douša** – Datový analytik
+* **Jiří Šedivý** – Mecenáš a finanční podpora
 
 ---
 
-# 🚀 Návod ke spuštění webu (Krok za krokem)
+# Návod ke spuštění webu (Krok za krokem)
 
 Tento návod je určen pro každého, kdo běžně používá počítač jen na prohlížení internetu, psaní ve Wordu nebo zápis do Bakalářů. Nebojte se, zvládnete to!
 
@@ -19,7 +19,7 @@ Tento návod je určen pro každého, kdo běžně používá počítač jen na 
 Aby se mohl web na vašem počítači nastartovat, potřebuje k tomu jeden pomocný program.
 1. Otevřete Google Chrome a klikněte na tento odkaz: [https://nodejs.org/](https://nodejs.org/)
 2. Na stránce uvidíte velké zelené tlačítko s nápisem **LTS** (např. *20.x.x LTS* nebo novější). Klikněte na něj.
-3. Stáhne se vám instalační soubor (podobně jako když stahujete hru nebo MS Office).
+3. Stáhne se vám instalační soubor.
 4. Soubor otevřete, klikejte na **Next** (Další) a nakonec na **Finish** (Dokončit).
 
 ### Krok 2: Otevření "Příkazového řádku"
@@ -46,9 +46,9 @@ Nyní web konečně probudíme k životu.
 2. Do řádku, kam běžně píšete internetové adresy (jako www.seznam.cz), napište: **`localhost:4321`**
 3. Zmáčkněte **Enter**.
 
-🎉 **Gratulujeme! Webová stránka s hodnocením kebabáren v Praze je spuštěná a můžete si ji prohlížet.**
+**Gratulujeme! Webová stránka s hodnocením kebabáren v Praze je spuštěná a můžete si ji prohlížet.**
 
 ---
 
-### 🛑 Jak web vypnout?
+### Jak web vypnout?
 Až budete chtít práci ukončit, stačí jednoduše **zavřít to černé okno** křížkem vpravo nahoře. Web se tím sám vypne.
